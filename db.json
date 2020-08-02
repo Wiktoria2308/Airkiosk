@@ -1,0 +1,28 @@
+{
+    "cards": [
+      {
+        "url": "images/paco",
+        "name": "Perfumy Pacco Rabanne",
+        "description": "Invictus 50 ml",
+        "price": "160,00 Pln"
+      },
+      {
+        "url": "images/zegarek",
+        "name": "Zegarek męski Aviator",
+        "description": "AVW2122G325",
+        "price": "480,00 Pln"
+      },
+      {
+        "url": "images/scyzoryk",
+        "name": "Scyzoryk Ranger Wood",
+        "description": "orzech włoski",
+        "price": "328,00 Pln"
+      },
+      {
+        "url": "images/plecak",
+        "name": "Plecaczek LittleLife",
+        "description": "Myszka Miki",
+        "price": "139,00 Pln"
+      }
+    ]
+  }
