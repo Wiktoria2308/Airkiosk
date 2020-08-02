@@ -1016,12 +1016,12 @@
     <script>
       $(function () {
         $.getJSON("/db.json", function (data) {
-          var template = $("#speakerstpl").html();
-          var template2 = $("#speakerstpl").html();
-          var template3 = $("#speakerstpl").html();
-          var html = Mustache.to_html(template, data);
-          var html2 = Mustache.to_html(template, data);
-          var html3 = Mustache.to_html(template, data);
+          const template = $("#speakerstpl").html();
+          const template2 = $("#speakerstpl").html();
+          const template3 = $("#speakerstpl").html();
+          const html = Mustache.to_html(template, data);
+          const html2 = Mustache.to_html(template, data);
+          const html3 = Mustache.to_html(template, data);
           $("#row").html(html);
           $("#row2").html(html2);
           $("#row3").html(html3);
