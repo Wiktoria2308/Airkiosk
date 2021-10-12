@@ -20,11 +20,17 @@ hr {
 a {
   color: darkblue;
 }
-
+.booking-number {
+  padding: .5rem;
+}
+.booking-number-container p {
+  font-size: 1em;
+}
 .navbar-top {
   margin-right: 1.7em;
   margin-bottom: 0;
   padding-bottom: 0;
+  justify-content: flex-end;
 }
 
 .navbar-top li {
@@ -439,12 +445,21 @@ footer p {
   height: 100%;
   background-color: #eeebeb;
 }
+.save-20 {
+  text-align: center;
+  vertical-align: middle;
+  line-height: 60px;
+}
 
+.carousel-plane {
+  margin-top: 1.2em;
+}
 /* If the screen size is 701px wide or more, set the font-size of <p> to 22px */
 @media screen and (min-width: 701px) {
   .savings-content-paragraph1 p {
     font-size: 22px;
   }
+ 
 }
 
 /* If the screen size is 601px wide or less, set the font-size of <p> to 15px */
@@ -478,5 +493,110 @@ footer p {
   .savings-content-paragraph2 div {
     margin-top: 0.8em;
   }
+ 
 }
 /*# sourceMappingURL=style.css.map */
+
+@media screen and (max-width: 450px) {
+.save-20 {
+line-height: 20px;
+margin-bottom: 0;
+margin-top: 10px;
+}
+#p1 {
+  font-size: 11px;
+  text-align: center;
+  padding-bottom: 3px;
+}
+#p2 {
+  font-size: 8px;
+  text-align: center;
+}
+.savings-content-paragraph2 div {
+  margin-top: 10px;
+}
+.card-limuzyna h3 {
+  font-size: 20px;
+}
+
+.card-limuzyna p, a {
+  font-size: 15px;
+}
+.social-media a {
+  font-size: 14px;
+}
+.payment {
+ box-sizing: content-box;
+}
+.carousel-caption h1{
+font-size: 30px;
+}
+.carousel-caption p, .carousel-caption a {
+  font-size: 20px;
+}
+
+.carousel-plane {
+  margin-top: 0;
+}
+.nav-account {
+  padding-right: 0;
+}
+.navbar-top {
+  margin-right: 0;
+  padding-right: 0;
+  padding-left: 0;
+  justify-content: center;
+}
+.booking-number-container {
+  justify-content: space-between;
+  padding-top: 6px;
+
+}
+.booking-number-container p, .booking-number-container a {
+  font-size: 13px;
+}
+.booking-number {
+ margin-top: 10px;
+}
+hr {
+  margin-bottom: 0;
+}
+}
+
+@media screen and (max-width: 361px) {
+ .sale-container {
+   padding-left: 0;
+   padding-right: 0;
+ }
+ .payment {
+  box-sizing: content-box;
+  justify-content: flex-start;
+ }
+
+.carousel-plane {
+  margin-top: 0;
+}
+
+.navbar-top {
+  margin-right: 0;
+  padding-right: 0;
+  padding-left: 0;
+  
+}
+
+  .booking-number-container p, .booking-number-container a {
+    font-size: 13px;
+  }
+  .navbar-expand .navbar-nav .nav-link {
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+ 
+  .navbar-top li span, a {
+    font-size: 12px;
+  }
+  .nav-account {
+    padding-right: 10px;
+}
+}
+
