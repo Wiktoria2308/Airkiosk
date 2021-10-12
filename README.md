@@ -1,4 +1,8 @@
 # Airkiosk
+
+https://wiktoria2308.github.io/Airkiosk/
+
+
 The internship project for a company in Poland.
 
 My project was to build an HTML template according to the attached mock-up using: Bootstrap, HTML, CSS, Sass, JavaScript.
