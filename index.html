@@ -31,7 +31,7 @@
 
     <!--Top-navbar początek---------------------------------------------------------------------------------------------------------------------------------------->
     <div class="container-fluid">
-      <nav class="navbar navbar-expand justify-content-end navbar-top">
+      <nav class="navbar navbar-expand navbar-top">
         <ul class="navbar-nav">
           <div class="nav-account">
             <li class="nav-item">
@@ -57,7 +57,6 @@
             </a>
             <div class="dropdown-menu">
               <a class="dropdown-item" href="#">EN</a>
-              <a class="dropdown-item" href="#">DE</a>
               <a class="dropdown-item" href="#">SV</a>
             </div>
           </li>
@@ -73,7 +72,7 @@
             <div class="dropdown-menu">
               <a class="dropdown-item" href="#">EUR</a>
               <a class="dropdown-item" href="#">GBP</a>
-              <a class="dropdown-item" href="#">USD</a>
+              <a class="dropdown-item" href="#">SEK</a>
             </div>
           </li>
         </ul>
@@ -85,14 +84,14 @@
     <hr>
     <!--Container with logo początek---------------------------------------------------------------------------------------------------------------------------------------->
 
-    <div class="container-fluid pt-2 pb-2">
-      <div class="mr-5 ml-5 pr-4 pl-4">
-        <div class="d-flex">
-          <div class="p-2 mr-auto">
+    <div class="container-fluid pt-md-2 pb-md-2">
+      <div class="mr-md-5 ml-md-5 pr-md-4 pl-md-4">
+        <div class="d-flex booking-number-container">
+          <div class="p-2 mr-md-auto">
             <img src="images/logo_pl.svg" alt="logo" style="width: 100px;" />
           </div>
-          <div class="p-2">
-            <div class="d-flex">
+          <div>
+            <div class="d-flex booking-number">
               <div>
                 <i
                   class="fas fa-plane-departure d-none d-sm-block"
@@ -104,17 +103,17 @@
                 ></i>
               </div>
               <div>
-                <p style="font-size: 1em; padding-bottom: 0; margin-bottom: 0;">
+                <p style="padding-bottom: 0; margin-bottom: 0;">
                   Numer Twojej rezerwacji:
                 </p>
                 <div class="d-flex">
                   <p
-                    class="mr-auto"
+                    class="mr-md-auto"
                     style="
                       font-weight: bold;
                       margin-top: 0;
                       padding-top: 0;
-                      font-size: 1em;
+                      margin-right: 5px;
                     "
                   >
                     233AD8
@@ -134,12 +133,12 @@
     <!-- Collapse navbar with toggler początek--------------------------------------------------------------------------------------------------------------- -->
     <div class="container-fluid">
       <nav
-        class="navbar navbar-expand-lg justify-content-between navbar-menu mr-5 ml-5 pr-4 pl-4"
+        class="navbar navbar-expand-lg justify-content-end navbar-menu mr-md-5 ml-md-5 pr-md-4 pl-md-4"
       >
         <!-- Collapse button -->
         <button
           class="navbar-toggler custom-toggler"
-          style="float: inline-end;"
+
           type="button"
           data-toggle="collapse"
           data-target="#basicExampleNav"
@@ -150,9 +149,9 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <!-- Collapsible content -->
-        <div class="collapse navbar-collapse" id="basicExampleNav">
+        <div class="collapse navbar-collapse " id="basicExampleNav">
           <!-- Links -->
-          <ul class="navbar-nav mr-auto">
+          <ul class="navbar-nav mr-auto text-center">
             <li class="nav-item">
               <a class="nav-link" href="#">Dostawa na pokład</a>
             </li>
@@ -173,7 +172,7 @@
             </li>
           </ul>
 
-          <form class="form-inline">
+   <form>
             <div class="bg-light rounded">
               <div class="input-group">
                 <input
@@ -189,7 +188,7 @@
                 </div>
               </div>
             </div>
-          </form>
+    </form>
         </div>
       </nav>
     </div>
@@ -199,9 +198,9 @@
 
     <div
       id="demo"
-      class="carousel slide"
+      class="carousel slide carousel-plane"
       data-ride="carousel"
-      style="margin-top: 1.2em;"
+     
     >
       <!-- Indicators -->
       <ul class="carousel-indicators">
@@ -272,7 +271,7 @@
             width="100%"
             height="450"
           />
-          <div class="carousel-caption">
+          <div class="carousel-caption ">
             <h1>#AKCJALICYTACJA</h1>
 
             <p class="lead">
@@ -420,22 +419,16 @@
       <!-- Koniec row -->
     </div>
 
-    <div class="container-fluid">
-      <div class="card-deck ml-4 mr-4">
-        <div class="col-xl-6 col-12 mb-5 mb-xl-0">
+    <div class="container-fluid sale-container">
+      <div class="card-deck ml-md-4 mr-md-4 mr-sm-1 ml-sm-1 ">
+        <div class="col-xl-6 col-12 mb-5 mb-xl-0 ">
           <!-- Card1 -->
           <div class="card border-0">
             <div class="savings-container">
               <div class="savings-content d-flex">
                 <div class="col-sm-6 col-md-7 savings-content-paragraph1">
                   <p
-                    class="text-uppercase"
-                    style="
-                      text-align: center;
-                      vertical-align: middle;
-                      line-height: 60px;
-                    "
-                  >
+                    class="text-uppercase save-20">
                     Oszczędzasz do 20%
                   </p>
                 </div>
@@ -645,20 +638,20 @@
         <!--Slides-->
         <div class="carousel-inner" role="listbox">
           <!--First slide-->
-          <div class="carousel-item active">
-            <div class="row" id="row"></div>
+          <div class="carousel-item active" id="row1">
+          
           </div>
           <!--/.First slide-->
 
           <!--Second slide-->
-          <div class="carousel-item">
-            <div class="row" id="row2"></div>
+          <div class="carousel-item" id="row2">
+           
           </div>
           <!--/.Second slide-->
 
           <!--Third slide-->
-          <div class="carousel-item">
-            <div class="row" id="row3"></div>
+          <div class="carousel-item" id="row3">
+           
           </div>
           <!--/.Third slide-->
         </div>
@@ -844,7 +837,7 @@
             <!-- Grid column -->
 
             <!-- Grid column -->
-            <div class="col-md-3 col-6 mx-auto mb-5">
+            <div class="col-md-3 col-6 mx-auto mb-5 payment pl-sm-0">
               <!-- Links -->
               <h6
                 class="text-uppercase font-weight-bold mb-4 justify-content-center"
@@ -987,47 +980,6 @@
     </footer>
     <!-- Footer -->
 
-    <!-------JavaScript------------------------------------------------------------------------------------------------------------------------>
-
-    <script id="speakerstpl" type="text/template">
-        {{#cards}}
-      <div class="col-md-3">
-        <div class="card mb-2 card-content">
-        <div class="text-center" id="image-container">
-          <img class="card-img-top carousel2-image" src="{{url}}.jpg"
-            alt="Card image cap">
-        </div>
-          <div class="card-body card-product-body">
-            <h6 class="card-title card-product-title text-uppercase">{{name}}</h6>
-            <p class="card-text card-product-description">{{description}}</p>
-                <div class="cards-footer">
-                    <h4 class="text-uppercase">{{price}}</h4>
-                </div>
-          </div>
-        </div>
-      </div>
-      {{/cards}}
-    </script>
-    <!----Links-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.cycle/3.0.3/jquery.cycle.all.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/2.2.1/mustache.min.js"></script>
-
-    <script>
-      $(function () {
-        $.getJSON("/db.json", function (data) {
-          const template = $("#speakerstpl").html();
-          const template2 = $("#speakerstpl").html();
-          const template3 = $("#speakerstpl").html();
-          const html = Mustache.to_html(template, data);
-          const html2 = Mustache.to_html(template, data);
-          const html3 = Mustache.to_html(template, data);
-          $("#row").html(html);
-          $("#row2").html(html2);
-          $("#row3").html(html3);
-        });
-      });
-    </script>
 
     <!-- JS, Popper.js, and jQuery -->
     <script
@@ -1046,5 +998,7 @@
       crossorigin="anonymous"
     ></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>
+
