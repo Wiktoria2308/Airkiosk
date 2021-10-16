@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pl">
+<html lang="en">
   <head>
     <title>Airkiosk</title>
     <meta charset="utf-8" />
@@ -18,8 +18,12 @@
       integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato" />
+    <link rel="stylesheet" href="../style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Lato"
+    />
+
   </head>
 
   <body>
@@ -31,25 +35,39 @@
         <ul class="navbar-nav">
           <div class="nav-account">
             <li class="nav-item">
-              <a class="nav-link" href="#"><i class="fas fa-user"></i>Moje konto</a>
+              <a class="nav-link" href="#"
+                ><i class="fas fa-user"></i>My account</a
+              >
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#"
-                ><i class="fas fa-shopping-cart"></i><span class="mr-2">0</span>PLN</a
+                ><i class="fas fa-shopping-cart"></i
+                ><span class="mr-2">0</span>PLN</a
               >
             </li>
           </div>
+         
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-              PL
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbardrop"
+              data-toggle="dropdown"
+            > 
+              EN
             </a>
             <div class="dropdown-menu">
-              <a class="dropdown-item" href="languages/index-english.html">EN</a>
-              <a class="dropdown-item" href="languages/index-swedish.html">SV</a>
+              <a class="dropdown-item" href="../index.html">PL</a>
+              <a class="dropdown-item" href="index-swedish.html">SV</a>
             </div>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbardrop"
+              data-toggle="dropdown"
+            >
               PLN
             </a>
             <div class="dropdown-menu">
@@ -64,33 +82,44 @@
 
     <!--Top-navbar end---------------------------------------------------------------------------------------------------------------------------------------->
 
-    <hr />
+    <hr>
     <!--Container with logo beginning---------------------------------------------------------------------------------------------------------------------------------------->
 
     <div class="container-fluid pt-md-2 pb-md-2">
       <div class="mr-md-5 ml-md-5 pr-md-4 pl-md-4">
         <div class="d-flex booking-number-container">
           <div class="p-2 mr-md-auto">
-            <img src="images/logo_pl.svg" alt="logo" style="width: 100px" />
+            <img src="../images/logo_pl.svg" alt="logo" style="width: 100px;" />
           </div>
           <div>
             <div class="d-flex booking-number">
               <div>
                 <i
                   class="fas fa-plane-departure d-none d-sm-block"
-                  style="margin-right: 0.2em; font-size: 2.3em; margin-top: 0.17em"
+                  style="
+                    margin-right: 0.2em;
+                    font-size: 2.3em;
+                    margin-top: 0.17em;
+                  "
                 ></i>
               </div>
               <div>
-                <p style="padding-bottom: 0; margin-bottom: 0">Numer Twojej rezerwacji:</p>
+                <p style="padding-bottom: 0; margin-bottom: 0;">
+                  Your booking number:
+                </p>
                 <div class="d-flex">
                   <p
                     class="mr-md-auto"
-                    style="font-weight: bold; margin-top: 0; padding-top: 0; margin-right: 5px"
+                    style="
+                      font-weight: bold;
+                      margin-top: 0;
+                      padding-top: 0;
+                      margin-right: 5px;
+                    "
                   >
                     233AD8
                   </p>
-                  <a href="#" style="text-decoration: underline">zmień</a>
+                  <a href="#" style="text-decoration: underline;">change</a>
                 </div>
               </div>
             </div>
@@ -105,19 +134,12 @@
     <!-- Collapse navbar with toggler beginning--------------------------------------------------------------------------------------------------------------- -->
     <div class="container-fluid">
       <nav
-        class="
-          navbar navbar-expand-lg
-          justify-content-end
-          navbar-menu
-          mr-md-5
-          ml-md-5
-          pr-md-4
-          pl-md-4
-        "
+        class="navbar navbar-expand-lg justify-content-end navbar-menu mr-md-5 ml-md-5 pr-md-4 pl-md-4"
       >
         <!-- Collapse button -->
         <button
           class="navbar-toggler custom-toggler"
+
           type="button"
           data-toggle="collapse"
           data-target="#basicExampleNav"
@@ -128,46 +150,46 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <!-- Collapsible content -->
-        <div class="collapse navbar-collapse" id="basicExampleNav">
+        <div class="collapse navbar-collapse " id="basicExampleNav">
           <!-- Links -->
           <ul class="navbar-nav mr-auto text-center">
             <li class="nav-item">
-              <a class="nav-link" href="#">Dostawa na pokład</a>
+              <a class="nav-link" href="#">Delivery on board</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Dostawa na adres</a>
+              <a class="nav-link" href="#">Delivery to the address</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Usługi</a>
+              <a class="nav-link" href="#">Services</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Aukcje</a>
+              <a class="nav-link" href="#">Auctions</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Nowości</a>
+              <a class="nav-link" href="#">New products</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Promocje</a>
+              <a class="nav-link" href="#">Special offers</a>
             </li>
           </ul>
 
-          <form>
+   <form>
             <div class="bg-light rounded">
               <div class="input-group">
                 <input
                   type="search"
-                  placeholder="Szukaj produktu..."
+                  placeholder="Search for a product..."
                   aria-describedby="button-addon1"
                   class="form-control form-control1 border-0 bg-light"
                 />
                 <div class="input-group-append">
                   <button id="button-addon1" type="submit" class="btn">
-                    <i class="fa fa-search" style="color: darkgrey"></i>
+                    <i class="fa fa-search" style="color: darkgrey;"></i>
                   </button>
                 </div>
               </div>
             </div>
-          </form>
+    </form>
         </div>
       </nav>
     </div>
@@ -175,7 +197,12 @@
 
     <!--Carousel 1 beginning---------------------------------------------------------------------------------------------------------------------------------------->
 
-    <div id="demo" class="carousel slide carousel-plane" data-ride="carousel">
+    <div
+      id="demo"
+      class="carousel slide carousel-plane"
+      data-ride="carousel"
+     
+    >
       <!-- Indicators -->
       <ul class="carousel-indicators">
         <li data-target="#demo" data-slide-to="0" class="active"></li>
@@ -187,41 +214,71 @@
       <!-- The slideshow -->
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="images/samolot.jpeg" alt="plane" width="100%" height="450" />
+          <img
+            src="../images/samolot.jpeg"
+            alt="plane"
+            width="100%"
+            height="450"
+          />
           <div class="carousel-caption">
-            <h1>#AKCJALICYTACJA</h1>
+            <h1>#ACTIONAUCTION</h1>
 
-            <p class="lead">Cena biletów nowych europejskich<br />kierunków w Twoich rękach!</p>
+            <p class="lead">
+              Ticket prices of the new European<br />directions in your hands!
+            </p>
 
-            <a href="#" class="btn btn-outline-light btn-lg" id="samolot">Licytuj bilet></a>
+            <a href="#" class="btn btn-outline-light btn-lg" id="samolot"
+              >Bid a ticket></a
+            >
           </div>
         </div>
 
         <div class="carousel-item">
-          <img src="images/samolot.jpeg" alt="plane2" width="100%" height="450" />
+          <img
+            src="../images/samolot.jpeg"
+            alt="plane2"
+            width="100%"
+            height="450"
+          />
           <div class="carousel-caption">
-            <h1>#AKCJALICYTACJA</h1>
+            <h1>#ACTIONAUCTION</h1>
 
-            <p class="lead">Cena biletów nowych europejskich<br />kierunków w Twoich rękach!</p>
-            <a href="#" class="btn btn-outline-light btn-lg">Licytuj bilet></a>
+            <p class="lead">
+              Ticket prices of the new European<br />directions in your hands!
+            </p>
+            <a href="#" class="btn btn-outline-light btn-lg">Bid a ticket></a>
           </div>
         </div>
         <div class="carousel-item">
-          <img src="images/samolot.jpeg" alt="plane3" width="100%" height="450" />
+          <img
+            src="../images/samolot.jpeg"
+            alt="plane3"
+            width="100%"
+            height="450"
+          />
           <div class="carousel-caption">
-            <h1>#AKCJALICYTACJA</h1>
+            <h1>#ACTIONAUCTION</h1>
 
-            <p class="lead">Cena biletów nowych europejskich<br />kierunków w Twoich rękach!</p>
-            <a href="#" class="btn btn-outline-light btn-lg">Licytuj bilet></a>
+            <p class="lead">
+              Ticket prices of the new European<br />directions in your hands!
+            </p>
+            <a href="#" class="btn btn-outline-light btn-lg">Bid a ticket></a>
           </div>
         </div>
         <div class="carousel-item">
-          <img src="images/samolot.jpeg" alt="plane4" width="100%" height="450" />
-          <div class="carousel-caption">
-            <h1>#AKCJALICYTACJA</h1>
+          <img
+            src="../images/samolot.jpeg"
+            alt="plane4"
+            width="100%"
+            height="450"
+          />
+          <div class="carousel-caption ">
+            <h1>#ACTIONAUCTION</h1>
 
-            <p class="lead">Cena biletów nowych europejskich<br />kierunków w Twoich rękach!</p>
-            <a href="#" class="btn btn-outline-light btn-lg">Licytuj bilet></a>
+            <p class="lead">
+              Ticket prices of the new European<br />directions in your hands!
+            </p>
+            <a href="#" class="btn btn-outline-light btn-lg">Bid a ticket></a>
           </div>
         </div>
       </div>
@@ -246,7 +303,7 @@
             <div class="text-center">
               <img
                 class="card-img-top jewellery-main-image"
-                src="images/visanti.jpg"
+                src="../images/visanti.jpg"
                 alt="Card image cap"
               />
             </div>
@@ -254,15 +311,17 @@
             <div class="card-body card-product-body">
               <!--Title-->
               <h4 class="card-title heading-sides-line">
-                <span>BIŻUTERIA<br />VISANTI</span>
+                <span>VISANTI<br/>JEWELLERY</span>
               </h4>
               <!--Text-->
-              <p class="card-text" style="font-size: 0.85em">
-                Produkty z oferty SHOPS&MORE<br />z dostawą pod wskazany adres na<br />terenie
-                Polski.
+              <p class="card-text" style="font-size: 0.85em;">
+                Products from SHOPS&MORE offer<br />with delivery to indicated address
+                <br />in Poland.
               </p>
               <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
-              <a href="#" class="btn btn-md jewellery-button">Poznaj całą kolekcję></a>
+              <a href="#" class="btn btn-md jewellery-button"
+                >Explore the entire collection></a
+              >
             </div>
           </div>
         </div>
@@ -273,15 +332,21 @@
           <div class="card card-content">
             <!--Card image-->
             <div class="text-center">
-              <img class="card-img-top" src="images/visanti1.jpg" alt="Card image cap" />
+              <img
+                class="card-img-top"
+                src="../images/visanti1.jpg"
+                alt="Card image cap"
+              />
             </div>
             <!--Card content-->
             <div class="card-body card-product-body">
               <!--Title-->
-              <h6 class="card-title card-product-title">KOLCZYKI VISANTI</h6>
+              <h6 class="card-title card-product-title">
+                EARRINGS VISANTI</h6>
               <!--Text-->
               <p class="card-text card-product-description">
-                Kolczyki sztyft, perły białe hodowane,<br />słodkowodne 5-5,5 mm, srebro
+                Stud earrings, white pearls, cultured,<br />cultured 5-5,5
+                mm, silver
               </p>
               <!-- card-footer -->
               <div class="cards-footer">
@@ -298,15 +363,19 @@
           <div class="card card-content">
             <!--Card image-->
             <div class="text-center">
-              <img class="card-img-top" src="images/visanti2.jpg" alt="Card image cap" />
+              <img
+                class="card-img-top"
+                src="../images/visanti2.jpg"
+                alt="Card image cap"
+              />
             </div>
             <!--Card content-->
             <div class="card-body card-product-body">
               <!--Title-->
-              <h6 class="card-title card-product-title">BRANSOLETA VISANTI</h6>
+              <h6 class="card-title card-product-title">BRACELET VISANTI</h6>
               <!--Text-->
               <p class="card-text card-product-description">
-                perły brązowe shell 8mm,<br />zapięcie posrebrzane.
+                brown shell pearls 8mm,<br />clasp silver plated.
               </p>
               <!-- card-footer -->
               <div class="cards-footer">
@@ -322,16 +391,21 @@
           <div class="card card-content">
             <!--Card image-->
             <div class="text-center">
-              <img class="card-img-top" src="images/visanti3.jpg" alt="Card image cap" />
+              <img
+                class="card-img-top"
+                src="../images/visanti3.jpg"
+                alt="Card image cap"
+              />
             </div>
 
             <!--Card content-->
             <div class="card-body card-product-body">
               <!--Title-->
-              <h6 class="card-title card-product-title">NASZYJNIK VISANTI</h6>
+              <h6 class="card-title card-product-title">NECKLACE VISANTI</h6>
               <!--Text-->
               <p class="card-text card-product-description">
-                Naszyjnik pleciony z perłami shell,<br />wielokolorowymi, wielkości 8-14 mm
+                Pearl shell braided necklace,<br />multicolored,
+                sizes 8-14 mm
               </p>
               <!--card-footer-->
               <div class="cards-footer">
@@ -348,21 +422,26 @@
     </div>
 
     <div class="container-fluid sale-container">
-      <div class="card-deck ml-md-4 mr-md-4 mr-sm-1 ml-sm-1">
-        <div class="col-xl-6 col-12 mb-5 mb-xl-0">
+      <div class="card-deck ml-md-4 mr-md-4 mr-sm-1 ml-sm-1 ">
+        <div class="col-xl-6 col-12 mb-5 mb-xl-0 ">
           <!-- Card1 -->
           <div class="card border-0">
             <div class="savings-container">
               <div class="savings-content d-flex">
                 <div class="col-sm-6 col-md-7 savings-content-paragraph1">
-                  <p class="text-uppercase save-20">Oszczędzasz do 20%</p>
+                  <p
+                    class="text-uppercase save-20">
+                    Save up to 20%
+                  </p>
                 </div>
-                <div class="col-sm-6 col-md-5 text-right savings-content-paragraph2">
+                <div
+                  class="col-sm-6 col-md-5 text-right savings-content-paragraph2"
+                >
                   <div class="d-block">
-                    <p class="mb-0" style="font-weight: bold" id="sale-paragraph1">
-                      Wyprzedaż już trwa
+                    <p class="mb-0" style="font-weight: bold;" id="sale-paragraph1">
+                      The sale has already begun 
                     </p>
-                    <p class="mt-0" id="sale-paragrpah2">Wszystkie lokalizacje na świecie</p>
+                    <p class="mt-0" id="sale-paragrpah2">All locations in the world</p>
                   </div>
                 </div>
               </div>
@@ -375,24 +454,29 @@
           <div
             class="card rounded-0"
             style="
-              background-image: url(images/limuzyna.png);
+              background-image: url(../images/limuzyna.png);
               background-size: cover;
               background-position: center;
               border: 0;
             "
           >
             <!-- Content -->
-            <div class="text-white text-center rgba-black-strong py-5 px-4" style="height: 280px">
+            <div
+              class="text-white text-center rgba-black-strong py-5 px-4"
+              style="height: 280px;"
+            >
               <div class="card-limousine">
                 <h3 class="card-title pt-2">
-                  <strong>LUKSUSOWY DOJAZD</strong>
+                  <strong>LUXURY ACCESS</strong>
                 </h3>
                 <p>
-                  Wybierz komfort ponad wszystko.<br />
-                  Skorzystaj z usługi, a dowieziemy Cię na pokład<br />
-                  samolotu limuzyną.
+                  Choose comfort above all else.<br />
+                  Use the service and we will take you<br />
+                  to the plane in a limousine.
                 </p>
-                <a href="#" class="btn btn-outline-light mt-2 mt-sm-4">Dowiedz się więcej></a>
+                <a href="#" class="btn btn-outline-light mt-2 mt-sm-4"
+                  >Find out more></a
+                >
               </div>
             </div>
           </div>
@@ -408,13 +492,19 @@
           <div class="card card-content">
             <!--Card image-->
             <div class="text-center">
-              <img class="card-img-top w-75" src="images/budzik.jpg" alt="Card image cap" />
+              <img
+                class="card-img-top w-75"
+                src="../images/budzik.jpg"
+                alt="Card image cap"
+              />
             </div>
             <!--Card content-->
             <div class="card-body">
               <!--Title-->
               <h6 class="card-title text-uppercase text-center mt-2">
-                <span class="justify-content-center">Budzik łowicki w kolorze białym</span>
+                <span class="justify-content-center"
+                  >Lowicki alarm clock in white</span
+                >
               </h6>
               <div class="cards-footer2">
                 <h4>59,00 PLN</h4>
@@ -427,13 +517,19 @@
           <div class="card card-content">
             <!--Card image-->
             <div class="text-center">
-              <img class="card-img-top w-75" src="images/magnes.jpg" alt="Card image cap" />
+              <img
+                class="card-img-top w-75"
+                src="../images/magnes.jpg"
+                alt="Card image cap"
+              />
             </div>
             <!--Card content-->
             <div class="card-body">
               <!--Title-->
               <h6 class="card-title text-uppercase text-center mt-2">
-                <span class="justify-content-center">Magnes łowicki w kolorze białym</span>
+                <span class="justify-content-center"
+                  >Lowicki magnet in white</span
+                >
               </h6>
               <div class="cards-footer2">
                 <h4>6,00 PLN</h4>
@@ -446,13 +542,19 @@
           <div class="card card-content">
             <!--Card image-->
             <div class="text-center">
-              <img class="card-img-top w-75" src="images/smycz.jpeg" alt="Card image cap" />
+              <img
+                class="card-img-top w-75"
+                src="../images/smycz.jpeg"
+                alt="Card image cap"
+              />
             </div>
             <!--Card content-->
             <div class="card-body">
               <!--Title-->
               <h6 class="card-title text-uppercase text-center mt-2">
-                <span class="justify-content-center">Smycz łowicka w kolorze czarnym</span>
+                <span class="justify-content-center"
+                  >Lowicki lanyard for keys in black</span
+                >
               </h6>
               <div class="cards-footer2">
                 <h4>10,00 PLN</h4>
@@ -467,9 +569,9 @@
 
             <img
               class="card-img-top folklor"
-              src="images/wzor.jpeg"
+              src="../images/wzor.jpeg"
               alt="Card image cap"
-              style="margin-bottom: 10px"
+              style="margin-bottom: 10px;"
             />
 
             <!--Card content-->
@@ -479,12 +581,16 @@
                 <span>Proud of<br />Poland</span>
               </h4>
               <!--Text-->
-              <p class="card-text card-polish-description justify-content-center">
-                Zobacz jak możesz poznać Polskę i odkryć jej niezwykłe piękno - poznaj nowoczesne
-                wydanie tradycyjnego polskiego folkloru.
+              <p
+                class="card-text card-polish-description justify-content-center"
+              >
+              See how you can get to know Poland and discover its extraordinary beauty -
+              learn about the modern edition of traditional Polish folklore.
               </p>
               <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
-              <a href="#" class="btn btn-md polish-products-button">Poznaj całą kolekcję></a>
+              <a href="#" class="btn btn-md polish-products-button"
+                >Explore the entire collection></a
+              >
             </div>
           </div>
         </div>
@@ -497,29 +603,29 @@
       <div class="row icons">
         <div class="col-md-3 icons-images">
           <i class="fas fa-plane"></i>
-          <div class="icons-text">Dostawa na pokład</div>
+          <div class="icons-text">Delivery on board</div>
         </div>
 
         <div class="col-md-3 icons-images">
           <i class="fas fa-credit-card"></i>
-          <div class="icons-text">Płatności Miles&More</div>
+          <div class="icons-text">Miles&More payments</div>
         </div>
         <div class="col-md-3 icons-images">
           <i class="fas fa-desktop"></i>
-          <div class="icons-text">Płatności online</div>
+          <div class="icons-text">Online payments</div>
         </div>
         <div class="col-md-3 icons-images">
           <i class="fas fa-envelope"></i>
-          <div class="icons-text">Wysyłka w 24H</div>
+          <div class="icons-text">Delivery in 24H</div>
         </div>
       </div>
     </div>
 
     <h4
       class="card-title new-products-airkiosk-heading text-center"
-      style="margin-top: 1.5em; margin-bottom: 2em"
+      style="margin-top: 1.5em; margin-bottom: 2em;"
     >
-      <span class="text-uppercase">Nowości w Airkiosku</span>
+      <span class="text-uppercase">New products in Airkiosk</span>
     </h4>
 
     <!--Carousel 2 ----------------------------------------------------------------------------------------------------------->
@@ -528,30 +634,44 @@
       id="carouselExampleControls"
       class="carousel slide carousel-multi-item"
       data-ride="carousel"
-      style="margin-top: 2em"
+      style="margin-top: 2em;"
     >
       <div class="container my-4">
         <!--Slides-->
         <div class="carousel-inner" role="listbox">
           <!--First slide-->
-          <div class="carousel-item active" id="row1"></div>
+          <div class="carousel-item active" id="row1">
+          
+          </div>
           <!--/.First slide-->
 
           <!--Second slide-->
-          <div class="carousel-item" id="row2"></div>
+          <div class="carousel-item" id="row2">
+           
+          </div>
           <!--/.Second slide-->
 
           <!--Third slide-->
-          <div class="carousel-item" id="row3"></div>
+          <div class="carousel-item" id="row3">
+           
+          </div>
           <!--/.Third slide-->
         </div>
         <!--/.Slides-->
       </div>
       <!-- Left and right controls -->
-      <a class="carousel-control-prev" href="#carouselExampleControls" data-slide="prev">
+      <a
+        class="carousel-control-prev"
+        href="#carouselExampleControls"
+        data-slide="prev"
+      >
         <i class="fas fa-chevron-left"></i>
       </a>
-      <a class="carousel-control-next" href="#carouselExampleControls" data-slide="next">
+      <a
+        class="carousel-control-next"
+        href="#carouselExampleControls"
+        data-slide="next"
+      >
         <i class="fas fa-chevron-right"></i>
       </a>
 
@@ -559,7 +679,9 @@
     </div>
 
     <div class="text-center">
-      <a href="#" class="btn btn-md new-products-airkiosk-button">Więcej nowości></a>
+      <a href="#" class="btn btn-md new-products-airkiosk-button"
+        >More new products></a
+      >
     </div>
 
     <!-- End of carousel-->
@@ -567,25 +689,33 @@
     <div class="w-100 newsletter">
       <div class="container pt-5 pb-5">
         <div class="row justify-content-center">
-          <div class="col-md-2 mx-auto newsletter-icon d-none d-lg-block text-xl-right mt-2">
+          <div
+            class="col-md-2 mx-auto newsletter-icon d-none d-lg-block text-xl-right mt-2"
+          >
             <i class="fas fa-envelope-open-text"></i>
           </div>
-          <div class="col-md-4 col-12 .col-sm-6 mx-auto mt-3 text-md-center text-xl-left">
-            <h3 class="text-uppercase">Zostań łowcą okazji</h3>
-            <p>Zostaw nam swój e-mail i upoluj specjalne oferty oraz zniżki na trasach LOTu.</p>
+          <div
+            class="col-md-4 col-12 .col-sm-6 mx-auto mt-3 text-md-center text-xl-left"
+          >
+            <h3 class="text-uppercase">Become a bargain hunter</h3>
+            <p>
+             Leave us your e-mail address and find special offers and discounts on LOT routes.
+            </p>
           </div>
-          <div class="col-md-6 col-12 .col-sm-6 col-lg-5 mx-auto mt-3 text-lg-left">
+          <div
+            class="col-md-6 col-12 .col-sm-6 col-lg-5 mx-auto mt-3 text-lg-left"
+          >
             <div class="input-group mb-2">
               <input
                 type="email"
                 class="form-control form-control2"
-                placeholder="Twój adres e-mail:"
-                aria-label="Twój adres e-mail:"
+                placeholder="Your e-mail address:"
+                aria-label="Your e-mail address:"
                 aria-describedby="button-addon2"
               />
 
               <div class="input-group-append">
-                <button class="btn email-button" type="button">Dołącz</button>
+                <button class="btn email-button" type="button">Join</button>
               </div>
             </div>
 
@@ -595,10 +725,14 @@
                 type="checkbox"
                 value=""
                 id="defaultCheck1"
-                style="margin-top: 0.4em"
+                style="margin-top: 0.4em;"
               />
-              <label class="form-check-label" for="defaultCheck1" style="font-size: small">
-                Zgadzam się na przetwarzanie moich danych przez LOT
+              <label
+                class="form-check-label"
+                for="defaultCheck1"
+                style="font-size: small;"
+              >
+              I consent to the processing of my data by LOT
               </label>
             </div>
             <div class="form-check">
@@ -607,10 +741,14 @@
                 type="checkbox"
                 value=""
                 id="defaultCheck2"
-                style="margin-top: 0.4em"
+                style="margin-top: 0.4em;"
               />
-              <label class="form-check-label" for="defaultCheck2" style="font-size: small">
-                Zgadzam się na przetwarzanie moich danych przez partnerów
+              <label
+                class="form-check-label"
+                for="defaultCheck2"
+                style="font-size: small;"
+              >
+              I consent to the processing of my data by partners
               </label>
             </div>
           </div>
@@ -619,7 +757,7 @@
     </div>
     <!-- Footer -->
     <footer class="page-footer font-small">
-      <div class="w-100" style="background-color: rgb(236, 235, 235)">
+      <div class="w-100" style="background-color: rgb(236, 235, 235);">
         <!-- Footer Links -->
         <div class="container text-center text-md-left pt-5">
           <!-- Grid row -->
@@ -627,20 +765,23 @@
             <!-- Grid column -->
             <div class="col-md-3 mx-auto mb-5">
               <!-- Links -->
-              <h6 class="text-uppercase font-weight-bold mb-4">Przydatne informacje</h6>
+              <h6 class="text-uppercase font-weight-bold mb-4">
+                
+              Useful information
+              </h6>
 
               <p>
-                <a href="#!">Regulamin Sklepu</a>
+                <a href="#!">Shop Regulations</a>
               </p>
 
               <p>
-                <a href="#!">Regulamin Aukcji biletów lotniczych</a>
+                <a href="#!">Plane Ticket Auction Regulations</a>
               </p>
               <p>
-                <a href="#!">Regulamin Aukcji Bagażu</a>
+                <a href="#!">Baggage Auction Regulations</a>
               </p>
               <p>
-                <a href="#!">Regulamin Aukcji</a>
+                <a href="#!">Auction Regulations</a>
               </p>
             </div>
             <!-- Grid column -->
@@ -648,22 +789,24 @@
             <!-- Grid column -->
             <div class="col-md-3 mx-auto mb-5">
               <!-- Links -->
-              <h6 class="text-uppercase font-weight-bold mb-4">Dla kupującego</h6>
+              <h6 class="text-uppercase font-weight-bold mb-4">
+                For the Buyer
+              </h6>
 
               <p>
-                <a href="#!">Pomoc</a>
+                <a href="#!">Help</a>
               </p>
               <p>
-                <a href="#!">Sposoby płatności</a>
+                <a href="#!">Forms of Payment</a>
               </p>
               <p>
-                <a href="#!">Zwroty i gwarancje</a>
+                <a href="#!">Returns and Guarantees</a>
               </p>
               <p>
-                <a href="#!">Oferta Miles&More</a>
+                <a href="#!">Miles&More Offer</a>
               </p>
               <p>
-                <a href="#!">Mapa serwisu</a>
+                <a href="#!">Site Map</a>
               </p>
             </div>
             <!-- Grid column -->
@@ -671,24 +814,26 @@
             <!-- Grid column -->
             <div class="col-md-3 mx-auto mb-5">
               <!-- Links -->
-              <h6 class="text-uppercase font-weight-bold mb-4">Kontakt</h6>
+              <h6 class="text-uppercase font-weight-bold mb-4">Contact</h6>
 
               <!--Grid row-->
               <div class="mb-md-3 mb-2">
                 <i
                   class="fas fa-phone fa-rotate-90 fa-pull-left mr-3 mt-2 d-none d-lg-block"
-                  style="font-size: 1.5em"
+                  style="font-size: 1.5em;"
                 ></i>
                 <p class="pb-0 mb-0">
-                  <span style="font-size: 14px; font-weight: bold">Telefon</span><br />01 012-234-34
+                  <span style="font-size: 14px; font-weight: bold;"
+                    >Phone</span
+                  ><br />01 012-234-34
                 </p>
               </div>
               <div>
                 <i
                   class="far fa-envelope fa-pull-left mr-3 d-none d-lg-block"
-                  style="font-size: 1.5em"
+                  style="font-size: 1.5em;"
                 ></i>
-                <p><a href="#" class="contact-form">Formularz kontaktowy</a></p>
+                <p><a href="#" class="contact-form">Contact form</a></p>
               </div>
             </div>
             <!-- Grid column -->
@@ -696,34 +841,36 @@
             <!-- Grid column -->
             <div class="col-md-3 col-6 mx-auto mb-5 payment pl-sm-0">
               <!-- Links -->
-              <h6 class="text-uppercase font-weight-bold mb-4 justify-content-center">
-                Metody płatności
+              <h6
+                class="text-uppercase font-weight-bold mb-4 justify-content-center"
+              >
+                Payment methods
               </h6>
 
               <div class="d-flex">
                 <p class="mr-lg-3 mr-2">
-                  <img src="images/mastercard.png" />
+                  <img src="../images/mastercard.png" />
                 </p>
 
                 <p class="mr-lg-3 mt-2 mr-2">
-                  <img src="images/visa.png" />
+                  <img src="../images/visa.png" />
                 </p>
 
                 <p class="mr-lg-3 mt-2 mr-2">
-                  <img src="images/paypal.png" />
+                  <img src="../images/paypal.png" />
                 </p>
               </div>
               <div class="d-flex">
                 <p class="mr-lg-3 mt-3 mr-2">
-                  <img src="images/maestro.png" />
+                  <img src="../images/maestro.png" />
                 </p>
 
                 <p class="mr-lg-3 mt-4 mr-2">
-                  <img src="images/electron.png" />
+                  <img src="../images/electron.png" />
                 </p>
 
                 <p class="mr-lg-3 mt-3 mr-2">
-                  <img src="images/american.png" />
+                  <img src="../images/american.png" />
                 </p>
               </div>
             </div>
@@ -738,24 +885,40 @@
           <!-- Grid row-->
           <div class="row py-4 d-flex align-items-center">
             <!-- Grid column -->
-            <div class="col-md-6 col-lg-6 col-12 text-lg-left mb-4 mb-md-0 text-sm-center">
+            <div
+              class="col-md-6 col-lg-6 col-12 text-lg-left mb-4 mb-md-0 text-sm-center"
+            >
               <ul class="nav">
                 <li class="nav-item">
-                  <a class="nav-link active text-uppercase" href="#!" style="font-size: smaller"
-                    >Strona główna</a
+                  <a
+                    class="nav-link active text-uppercase"
+                    href="#!"
+                    style="font-size: smaller;"
+                    >Home</a
                   >
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link text-uppercase" href="#!" style="font-size: smaller">Aukcje</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link text-uppercase" href="#!" style="font-size: smaller"
-                    >Nowości</a
+                  <a
+                    class="nav-link text-uppercase"
+                    href="#!"
+                    style="font-size: smaller;"
+                    >Auctions</a
                   >
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link text-uppercase" href="#!" style="font-size: smaller"
-                    >Promocje</a
+                  <a
+                    class="nav-link text-uppercase"
+                    href="#!"
+                    style="font-size: smaller;"
+                    >New products</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link text-uppercase"
+                    href="#!"
+                    style="font-size: smaller;"
+                    >Special offers</a
                   >
                 </li>
               </ul>
@@ -767,31 +930,48 @@
               class="col-md-6 col-lg-6 col-12 text-lg-right text-sm-center text-center social-media"
             >
               <a href="#" class="visit-us-text">
-                <span class="mr-2 text-uppercase" style="font-size: smaller">Odwiedź nas na:</span>
+                <span class="mr-2 text-uppercase" style="font-size: smaller;"
+                  >Visit us at:</span
+                >
               </a>
               <!-- Facebook -->
-              <a href="#" style="text-decoration: none" class="facebook">
-                <i class="fab fa-facebook-square mr-2" style="color: rgb(1, 1, 179)"> </i>
+              <a href="#" style="text-decoration: none;" class="facebook">
+                <i
+                  class="fab fa-facebook-square mr-2"
+                  style="color: rgb(1, 1, 179);"
+                >
+                </i>
               </a>
               <!-- Google -->
               <a href="#">
-                <i class="fab fa-google-plus-square mr-2" style="color: orangered"> </i>
+                <i
+                  class="fab fa-google-plus-square mr-2"
+                  style="color: orangered;"
+                >
+                </i>
               </a>
               <!-- Pinterest-->
               <a href="#">
-                <i class="fab fa-pinterest-square mr-2" style="color: rgb(196, 1, 1)"> </i>
+                <i
+                  class="fab fa-pinterest-square mr-2"
+                  style="color: rgb(196, 1, 1);"
+                >
+                </i>
               </a>
               <!--You tube -->
               <a href="#">
-                <i class="fab fa-youtube-square mr-2" style="color: red"> </i>
+                <i class="fab fa-youtube-square mr-2" style="color: red;"> </i>
               </a>
               <!--Linkedin-->
               <a href="#">
-                <i class="fab fa-linkedin mr-2" style="color: blue"> </i>
+                <i class="fab fa-linkedin mr-2" style="color: blue;"> </i>
               </a>
               <!--Instagram-->
               <a href="#">
-                <i class="fab fa-instagram" style="color: rgb(32, 184, 235)"></i>
+                <i
+                  class="fab fa-instagram"
+                  style="color: rgb(32, 184, 235);"
+                ></i>
               </a>
             </div>
             <!-- Grid column -->
@@ -801,6 +981,7 @@
       </div>
     </footer>
     <!-- Footer -->
+
 
     <!-- JS, Bootstrap,  Popper.js, and jQuery Links -->
     <script
@@ -819,6 +1000,7 @@
       crossorigin="anonymous"
     ></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="script.js"></script>
+    <script src="scriptENG.js"></script>
   </body>
 </html>
+

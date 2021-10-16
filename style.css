@@ -103,7 +103,7 @@ a {
   font-size: 2.9em;
 }
 
-.visanti-button {
+.jewellery-button {
   color: darkblue;
   border: 1px solid darkblue;
   width: 100%;
@@ -111,7 +111,7 @@ a {
   margin-top: 0.8em;
 }
 
-.visanti-button:hover {
+.jewellery-button:hover {
   color: white;
   background-color: darkblue;
 }
@@ -158,22 +158,22 @@ a {
   margin-top: 0.3em;
 }
 
-.card-limuzyna p {
+.card-limousine p {
   text-shadow: 0 0 0.03em grey, 0 0 0.03em grey, 0 0 0.03em gray;
 }
 
-.card-limuzyna h3 {
+.card-limousine h3 {
   text-shadow: 0 0 0.03em grey, 0 0 0.03em grey, 0 0 0.03em gray;
 }
 
-.card-limuzyna a {
+.card-limousine a {
   font-size: 0.7em;
   border-width: 0.15em;
   -webkit-box-shadow: inset 0 0 0.03em grey, 0 0 0.03em grey, 0 0 0.03em gray;
   box-shadow: inset 0 0 0.03em grey, 0 0 0.03em grey, 0 0 0.03em gray;
 }
 
-.card-limuzyna .btn {
+.card-limousine .btn {
   padding-left: 1.5em;
   padding-right: 1.5em;
   font-size: 0.9em;
@@ -264,12 +264,12 @@ a {
   padding-bottom: 1em;
 }
 
-.novelties-airkiosk-heading span {
+.new-products-airkiosk-heading span {
   position: relative;
 }
 
-.novelties-airkiosk-heading span:before,
-.novelties-airkiosk-heading span:after {
+.new-products-airkiosk-heading span:before,
+.new-products-airkiosk-heading span:after {
   content: "";
   position: absolute;
   height: 15px;
@@ -277,12 +277,12 @@ a {
   width: 22%;
 }
 
-.novelties-airkiosk-heading span:before {
+.new-products-airkiosk-heading span:before {
   right: 100%;
   margin-right: 25px;
 }
 
-.novelties-airkiosk-heading span:after {
+.new-products-airkiosk-heading span:after {
   left: 100%;
   margin-left: 25px;
 }
@@ -318,7 +318,7 @@ a {
   height: 200px;
 }
 
-.novelties-airkiosk-button {
+.new-products-airkiosk-button {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
@@ -333,7 +333,7 @@ a {
   margin-bottom: 2em;
 }
 
-.novelties-airkiosk-button:hover {
+.new-products-airkiosk-button:hover {
   color: darkblue;
   background-color: white;
   border: 1px solid darkblue;
@@ -470,10 +470,10 @@ footer p {
 
 /* If the screen size is 701px wide or more, set the font-size of <p> to 22px */
 @media screen and (min-width: 701px) {
-  #p1 {
+  #sale-paragraph1 {
     font-size: 15px;
   }
-  #p2 {
+  #sale-paragraph2 {
     font-size: 12px;
   }
   .savings-content-paragraph2 div {
@@ -483,10 +483,10 @@ footer p {
 
 /* If the screen size is 601px wide or less, set the font-size of <p> to 15px */
 @media screen and (max-width: 700px) {
-  #p1 {
+  #sale-paragraph1 {
     font-size: 13px;
   }
-  #p2 {
+  #sale-paragraph2 {
     font-size: 11px;
   }
   .savings-content-paragraph2 div {
@@ -502,23 +502,23 @@ line-height: 20px;
 margin-bottom: 0;
 margin-top: 10px;
 }
-#p1 {
+#sale-paragraph1 {
   font-size: 11px;
   text-align: center;
   padding-bottom: 3px;
 }
-#p2 {
+#sale-paragraph2 {
   font-size: 8px;
   text-align: center;
 }
 .savings-content-paragraph2 div {
   margin-top: 10px;
 }
-.card-limuzyna h3 {
+.card-limousine h3 {
   font-size: 20px;
 }
 
-.card-limuzyna p, a {
+.card-limousine p, a {
   font-size: 15px;
 }
 .social-media a {

@@ -4,25 +4,41 @@
         "url": "images/paco",
         "name": "Perfumy Pacco Rabanne",
         "description": "Invictus 50 ml",
-        "price": "160,00 Pln"
+        "engDescription": "Invictus 50 ml",
+        "svDescription": "Invictus 50 ml",
+        "price": "160,00 Pln",
+        "engName": "Paco Rabanne perfume",
+        "svName": "Paco Rabanne parfym"
       },
       {
         "url": "images/zegarek",
         "name": "Zegarek męski Aviator",
         "description": "AVW2122G325",
-        "price": "480,00 Pln"
+        "engDescription": "AVW2122G325",
+        "svDescription": "AVW2122G325",
+        "price": "480,00 Pln",
+        "engName": "Aviator man watch",
+        "svName": "Aviator herrklocka"
       },
       {
         "url": "images/scyzoryk",
         "name": "Scyzoryk Ranger Wood",
         "description": "orzech włoski",
-        "price": "328,00 Pln"
+        "engDescription": "walnut",
+        "svDescription": "valnöt",
+        "price": "328,00 Pln",
+        "engName": "Ranger Wood pocket knife",
+        "svName": "Ranger Wood fickkniv"
       },
       {
         "url": "images/plecak",
         "name": "Plecaczek LittleLife",
         "description": "Myszka Miki",
-        "price": "139,00 Pln"
+        "engDescription": "Mickey Mouse",
+        "svDescription": "Musse Pigg",
+        "price": "139,00 Pln",
+        "engName": "LittleLife backpack",
+        "svName": "LittleLife ryggsäck"
       }
     ]
   }
