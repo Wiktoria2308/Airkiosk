@@ -14,7 +14,7 @@ fetch('../db.json')
   .then((data) => {
     let array = data.cards;
 
-    for (let i = 0; i < array.length; i++) {
+    for (let i = 0; i < 4; i++) {
       let col = document.createElement('div');
       col.className = 'col-md-3';
 
@@ -69,7 +69,7 @@ fetch('../db.json')
   .then((data) => {
     let array = data.cards;
 
-    for (let i = 0; i < array.length; i++) {
+    for (let i = 4; i < 8; i++) {
       let col = document.createElement('div');
       col.className = 'col-md-3';
 
@@ -124,7 +124,7 @@ fetch('../db.json')
   .then((data) => {
     let array = data.cards;
 
-    for (let i = 0; i < array.length; i++) {
+    for (let i = 8; i < 12; i++) {
       let col = document.createElement('div');
       col.className = 'col-md-3';
 

@@ -17,7 +17,7 @@
         "engDescription": "AVW2122G325",
         "svDescription": "AVW2122G325",
         "price": "480,00 Pln",
-        "engName": "Aviator man watch",
+        "engName": "Aviator men's watch",
         "svName": "Aviator herrklocka"
       },
       {
@@ -39,6 +39,86 @@
         "price": "139,00 Pln",
         "engName": "LittleLife backpack",
         "svName": "LittleLife ryggsäck"
+      },
+      {
+        "url": "images/earphones",
+        "name": "Słuchawki Beoplay H5",
+        "description": "Bezprzewodowe Bang&Olufsen",
+        "engDescription": "Wireless Bang&Olufsen Signature Sound",
+        "svDescription": "Trådlöst Bang&Olufsen signaturljud",
+        "price": "999,00 Pln",
+        "engName": "Beoplay H5 earphones",
+        "svName": "Beoplay H5 hörlurar"
+      },
+      {
+        "url": "images/facecream",
+        "name": "Krem pod oczy Yonelle",
+        "description": "Yonelle Infusion przeciwzmarszczkowy",
+        "engDescription": "INFUSION anti-wrinkle rich eye cream",
+        "svDescription": "INFUSION anti-rynkor rik ögonkräm",
+        "price": "199,00 Pln",
+        "engName": "Eye cream Yonelle",
+        "svName": "Ögonkräm Yonelle"
+      },
+      {
+        "url": "images/festina",
+        "name": "Zegarek damski Festina",
+        "description": "Kolekcja Mademoiselle",
+        "engDescription": "Mademoiselle collection",
+        "svDescription": "Mademoiselle kollektion",
+        "price": "399,00 Pln",
+        "engName": "Festina women's watch",
+        "svName": "Festina damklocka"
+      },
+      {
+        "url": "images/wenger",
+        "name": "Walizka Wenger Pegasus",
+        "description": "Szwajcarska marka Wenger",
+        "engDescription": "Swiss brand Wenger",
+        "svDescription": "Schweiziska märket Wenger",
+        "price": "399,00 Pln",
+        "engName": "Wenger Pegasus suitcase",
+        "svName": "Wenger Pegasus resväska"
+      },
+      {
+        "url": "images/tommy",
+        "name": "Zegarek Tommy Hilfiger",
+        "description": "damski, beżowy 40mm",
+        "engDescription": "women's watch, beige 40mm",
+        "svDescription": "damklocka, beige 40mm",
+        "price": "570,00 Pln",
+        "engName": "Tommy Hilfiger watch",
+        "svName": "Tommy Hilfiger klocka"
+      },
+      {
+        "url": "images/yonelle",
+        "name": "Krem do twarzy Yonelle",
+        "description": "Yonelle Medifusion CBD",
+        "engDescription": "Yonelle Medifusion CBD",
+        "svDescription": "Yonelle Medifusion CBD",
+        "price": "339,00 Pln",
+        "engName": "Face cream Yonelle",
+        "svName": "Ansiktskräm Yonelle"
+      },
+      {
+        "url": "images/map",
+        "name": "Mapa zdrapka",
+        "description": "Polska Pielgrzyma",
+        "engDescription": "Poland Pilgrim",
+        "svDescription": "Polen pilgrim",
+        "price": "120,00 Pln",
+        "engName": "Map Scratch Card",
+        "svName": "Skrapbar karta"
+      },
+      {
+        "url": "images/pen",
+        "name": "Długopis Swarovski",
+        "description": "Pozłacane Różowym Złotem 18K",
+        "engDescription": "18K rose gold-plated, 540 crystals",
+        "svDescription": "18K rosguldpläterad, 540 kristaller",
+        "price": "120,00 Pln",
+        "engName": "Swarovski pen",
+        "svName": "Swarovski penna"
       }
     ]
   }
